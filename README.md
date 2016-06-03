@@ -1,3 +1,19 @@
+also to see this client side you will need the following
+//
+open node_modules/livereload-js/dist/livereload.js and add a line after the 765 conditional for css
+      if (options.liveJS) {
+        if (path.match(/\.js$/i)) {
+          debugger; //do something w/ the path here
+          return;
+        }
+      }
+
+ AND this after line 406 (future flag to opt-in)
+
+ liveJS: (_ref = message.liveCSS) != null ? _ref : true,
+
+//
+
 [![view on npm](http://img.shields.io/npm/v/ember-cli-styles-reloader.svg)](https://www.npmjs.org/package/ember-cli-styles-reloader)
 [![npm module downloads per month](http://img.shields.io/npm/dm/ember-cli-styles-reloader.svg)](https://www.npmjs.org/package/ember-cli-styles-reloader)
 [![Build Status](https://travis-ci.org/xomaczar/ember-cli-styles-reloader.png?branch=master)](https://travis-ci.org/xomaczar/ember-cli-styles-reloader)
