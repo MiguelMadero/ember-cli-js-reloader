@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-styles-reloader",
+  "name": "ember-cli-js-reloader",
   "dependencies": {
     "ember": "1.12.0",
     "ember-cli-shims": "ember-cli/ember-cli-shims#0.0.3",

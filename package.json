@@ -1,7 +1,7 @@
 {
-  "name": "ember-cli-styles-reloader",
+  "name": "ember-cli-js-reloader",
   "version": "0.1.8",
-  "description": "Reloads (css|scss|sass|less|styl) without reloading the entire ember-cli app",
+  "description": "Reloads JS components and HBS without reloading the entire ember-cli app",
   "directories": {
     "test": "tests"
   },
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xomaczar/ember-cli-styles-reloader"
+    "url": "https://github.com/toranb/ember-cli-js-reloader"
   },
   "engines": {
     "node": ">= 0.10.0"

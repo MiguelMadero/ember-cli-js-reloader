@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-styles-reloader',
+  name: 'ember-cli-js-reloader',
 
   included: function(app){
     var supportedEnv = 'development';
@@ -13,7 +13,7 @@ module.exports = {
     var config = app.project.config(supportedEnv);
     var addonConfig = config[this.name] || { animateChanges: false };
     if (addonConfig.animateChanges){
-      app.import('vendor/ember-cli-styles-reloader/base.css');
+      app.import('vendor/ember-cli-js-reloader/base.css');
     }
   },
 
