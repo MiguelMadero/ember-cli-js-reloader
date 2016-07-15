@@ -21,7 +21,7 @@ open node_modules/livereload-js/dist/livereload.js and add a line after the 765 
 # ember-cli-js-reloader
 Reloads changed JS and HBS files without reloading the entire ember-cli app. For now, it's constrainted to components and HBS. 
 
-Most of the code is based on [ember-cli-css-reloader](https://github.com/xomaczar/ember-cli-styles-reloader)
+Most of the code is based on [ember-cli-styles-reloader](https://github.com/xomaczar/ember-cli-styles-reloader)
 by [xomaczar](https://github.com/xomaczar) and all credit goes out to him. 
 
 ## Installation
